@@ -1,11 +1,12 @@
 let know= document.getElementById('boton')
 let albumimg= document.getElementById('albumimg')
 
-let textonew= 'hola'
+
+let textonew= ('hola')
 
 
 const cambiar = () => {
- albumimg= textonew
+ albumimg.src= textonew
   
 }
 
