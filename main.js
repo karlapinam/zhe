@@ -1,6 +1,12 @@
-let know= document.getElementById('know')
+let know= document.getElementById('boton')
+let albumimg= document.getElementById('albumimg')
 
-const cambiar= ()=> {
-    
+let textonew= 'hola'
 
+
+const cambiar = () => {
+ albumimg= textonew
+  
 }
+
+know.addEventListener('click', cambiar)
